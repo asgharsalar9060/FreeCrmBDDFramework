@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="12.816864">
-    <testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario" time="12.816864">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="27.621971">
+    <testcase classname="Free CRM Contacts Page Feature" name="Free CRM contacts page scenario" time="15.54329">
         <system-out>
             <![CDATA[Given user is already on Login Page.........................................passed
 When title of Login Page is Free CRM........................................passed
-Then user enters username and password......................................passed
+Then user enters "AsgharSalar" and "Salar@123"..............................passed
 Then user clicks on login button............................................passed
 Then user is on home page...................................................passed
+Then user moves to new contact page.........................................passed
+Then user enters contacts details "Ali" and "Khan" and "director"...........passed
+Then user clicks on save button.............................................passed
+Then close the browser......................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Free CRM Contacts Page Feature" name="Free CRM contacts page scenario 2" time="12.078681">
+        <system-out>
+            <![CDATA[Given user is already on Login Page.........................................passed
+When title of Login Page is Free CRM........................................passed
+Then user enters "AsgharSalar" and "Salar@123"..............................passed
+Then user clicks on login button............................................passed
+Then user is on home page...................................................passed
+Then user moves to new contact page.........................................passed
+Then user enters contacts details "Kali" and "Johnson" and "manager"........passed
+Then user clicks on save button.............................................passed
+Then close the browser......................................................passed
 ]]>
         </system-out>
     </testcase>
