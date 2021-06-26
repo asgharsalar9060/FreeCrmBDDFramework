@@ -96,129 +96,151 @@
         "steps": [
           {
             "result": {
-              "duration": 6030979300,
+              "duration": 6277935900,
               "status": "passed"
             },
             "line": 24,
             "name": "user is already on login page",
             "match": {
-              "location": "DealsPageStepDefinition.user_is_already_on_login_page()"
+              "location": "DealsPageStepDefinitionWithMap.user_is_already_on_login_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 64092300,
+              "duration": 13310300,
               "status": "passed"
             },
             "line": 25,
             "name": "title of login page",
             "match": {
-              "location": "DealsPageStepDefinition.title_of_login_page()"
+              "location": "DealsPageStepDefinitionWithMap.title_of_login_page()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 564999200,
+              "duration": 640664400,
               "status": "passed"
             },
             "line": 26,
             "name": "user enters username and password",
             "match": {
-              "location": "DealsPageStepDefinition.user_enters_username_and_password(DataTable)"
+              "location": "DealsPageStepDefinitionWithMap.user_enters_username_and_password(DataTable)"
             },
             "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 27
+              },
               {
                 "cells": [
                   "AsgharSalar",
                   "Salar@123"
                 ],
-                "line": 27
+                "line": 28
               }
             ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 2366628000,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "user clicks on login button",
-            "match": {
-              "location": "DealsPageStepDefinition.user_clicks_on_login_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 6654201,
-              "status": "passed"
-            },
-            "line": 29,
-            "name": "user is on home page",
-            "match": {
-              "location": "DealsPageStepDefinition.user_is_on_home_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 891803300,
+              "duration": 2320721300,
               "status": "passed"
             },
             "line": 30,
-            "name": "user moves to deals page",
+            "name": "user clicks on login button",
             "match": {
-              "location": "DealsPageStepDefinition.user_moves_to_deals_page()"
+              "location": "DealsPageStepDefinitionWithMap.user_clicks_on_login_button()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 449748300,
+              "duration": 9523800,
               "status": "passed"
             },
             "line": 31,
+            "name": "user is on home page",
+            "match": {
+              "location": "DealsPageStepDefinitionWithMap.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 990737700,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user moves to deals page",
+            "match": {
+              "location": "DealsPageStepDefinitionWithMap.user_moves_to_deals_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6726155400,
+              "status": "passed"
+            },
+            "line": 33,
             "name": "user enters the deals details",
             "match": {
-              "location": "DealsPageStepDefinition.user_enters_contacts_details_and_and(DataTable)"
+              "location": "DealsPageStepDefinitionWithMap.user_enters_contacts_details_and_and(DataTable)"
             },
             "rows": [
               {
                 "cells": [
-                  "deals title",
+                  "title",
+                  "company",
+                  "amount",
+                  "commission"
+                ],
+                "line": 34
+              },
+              {
+                "cells": [
+                  "deals title1",
                   "Amazon",
                   "3700",
                   "10"
                 ],
-                "line": 32
+                "line": 35
+              },
+              {
+                "cells": [
+                  "deals title2",
+                  "Ebay",
+                  "1700",
+                  "20"
+                ],
+                "line": 36
+              },
+              {
+                "cells": [
+                  "deals title3",
+                  "Google",
+                  "7700",
+                  "30"
+                ],
+                "line": 37
               }
             ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 829809600,
+              "duration": 856420400,
               "status": "passed"
             },
-            "line": 33,
-            "name": "user clicks on save button",
-            "match": {
-              "location": "DealsPageStepDefinition.user_clicks_on_save_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 942200200,
-              "status": "passed"
-            },
-            "line": 34,
+            "line": 39,
             "name": "user closes browser",
             "match": {
-              "location": "DealsPageStepDefinition.user_closes_browser()"
+              "location": "DealsPageStepDefinitionWithMap.user_closes_browser()"
             },
             "keyword": "Then "
           }
@@ -229,6 +251,6 @@
     "description": "",
     "id": "free-crm-deals-page-feature",
     "keyword": "Feature",
-    "uri": "C:/Users/User/OneDrive/Documents/JavaTraining/FreeCrmBDDFrameworkPractice/src/main/java/Features/deals.feature"
+    "uri": "C:/Users/User/OneDrive/Documents/JavaTraining/FreeCrmBDDFrameworkPractice/src/main/java/Features/dealsmap.feature"
   }
 ]

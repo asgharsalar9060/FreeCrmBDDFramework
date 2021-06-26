@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="12.146914">
-    <testcase classname="Free CRM Deals Page Feature" name="Free CRM deals page scenario" time="12.146914">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="17.835469">
+    <testcase classname="Free CRM Deals Page Feature" name="Free CRM deals page scenario" time="17.835469">
         <system-out>
             <![CDATA[Given user is already on login page.........................................passed
 When title of login page....................................................passed
@@ -9,7 +9,6 @@ Then user clicks on login button............................................pass
 Then user is on home page...................................................passed
 Then user moves to deals page...............................................passed
 Then user enters the deals details..........................................passed
-Then user clicks on save button.............................................passed
 Then user closes browser....................................................passed
 ]]>
         </system-out>
